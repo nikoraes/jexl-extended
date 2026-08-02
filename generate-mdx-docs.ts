@@ -2,6 +2,7 @@
 
 import fs from "fs";
 import path from "path";
+import { pathToFileURL } from "node:url";
 import {
   completionDocs,
   CompletionDocItem,
@@ -335,8 +336,8 @@ async function generateMDXDocs(): Promise<void> {
   );
 }
 
-// Run the generator
-if (require.main === module) {
+// Run the generator (only when executed directly, not when imported)
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   generateMDXDocs().catch(console.error);
 }
 

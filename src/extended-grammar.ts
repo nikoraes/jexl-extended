@@ -1490,7 +1490,7 @@ export const convertTimeZone = (
     // yyyy-MM-dd'T'HH:mm:ss.SSSSSSSXXX for ISO with 7 fractional digits and offset
     // SSSSSSS is not a standard token, so pad manually after formatting
     // Use SSS for milliseconds, then pad to 7 digits
-    const { formatInTimeZone } = require("date-fns-tz"); // Use ESM import in actual code
+    // formatInTimeZone is already imported at module level
     let formatted = formatInTimeZone(
       date,
       ianaTz,
