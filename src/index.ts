@@ -70,7 +70,8 @@ import {
   convertTimeZone,
   localTimeToIsoWithOffset,
   getType,
-} from "./extended-grammar";
+  __setJexlInstance,
+} from "./extended-grammar.js";
 
 export class JexlExtended extends Jexl {
   constructor() {
@@ -414,6 +415,13 @@ export enum GrammarType {
 }
 
 // Monaco Editor support (optional)
-export * as Monaco from './monaco';
+export * as Monaco from './monaco/index.js';
 
-export default new JexlExtended();
+// Create the default instance and make it available to the grammar module so
+// functions like `eval` and `sort` can evaluate nested expressions with the
+// extended grammar. Injected lazily to avoid a static circular import between
+// index.ts and extended-grammar.ts (see extended-grammar.ts for details).
+const jexlExtended = new JexlExtended();
+__setJexlInstance(jexlExtended);
+
+export default jexlExtended;

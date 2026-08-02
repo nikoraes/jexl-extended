@@ -4,7 +4,7 @@
  */
 
 // Import completion docs directly (generated file)
-import { completionDocs, type CompletionDocItem } from './completion-docs.generated';
+import { completionDocs, type CompletionDocItem } from './completion-docs.generated.js';
 
 export interface ICompletionItem {
   label: string;

@@ -3,8 +3,8 @@
  * Helper functions to register JEXL language support with Monaco Editor
  */
 
-import { jexlLanguageConfiguration } from './language-configuration';
-import { jexlMonarchLanguage } from './monarch-language';
+import { jexlLanguageConfiguration } from './language-configuration.js';
+import { jexlMonarchLanguage } from './monarch-language.js';
 import {
   createJexlFunctionItems,
   createJexlTransformItems,
@@ -13,7 +13,7 @@ import {
   createJexlOperators,
   getJexlCompletionDoc,
   getOperatorDoc,
-} from "./completion-provider";
+} from "./completion-provider.js";
 
 export const JEXL_LANGUAGE_ID = "jexl";
 
