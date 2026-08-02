@@ -4,7 +4,7 @@
  */
 
 // Re-export everything for easy imports
-export * from './language-configuration';
-export * from './monarch-language';
-export * from './completion-provider';
-export * from './register-language';
+export * from './language-configuration.js';
+export * from './monarch-language.js';
+export * from './completion-provider.js';
+export * from './register-language.js';

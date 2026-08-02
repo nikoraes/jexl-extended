@@ -7,7 +7,38 @@ import {
 } from "date-fns";
 
 import { v4 as uuidv4 } from "uuid";
-import jexl from ".";
+import { Jexl } from "jexl";
+
+/**
+ * Lazy reference to the default JexlExtended instance, injected by index.ts.
+ *
+ * A static import of the instance here would create a module-init cycle
+ * between this file and index.ts (index.ts imports the grammar functions from
+ * this file, this file imports the default instance from index.ts). Native ESM
+ * resolves such cycles with uninitialized bindings, so whenever this file is
+ * the entry point (e.g. `import { arrayMap } from 'jexl-extended/extended-grammar'`),
+ * the constructor in index.ts would read grammar functions before they are
+ * initialized (ReferenceError: Cannot access 'X' before initialization).
+ * index.ts calls {@link __setJexlInstance} once the default instance exists.
+ * @internal
+ */
+type JexlInstance = InstanceType<typeof Jexl>;
+
+let jexlInstance: JexlInstance | null = null;
+
+/** @internal */
+export function __setJexlInstance(instance: JexlInstance): void {
+  jexlInstance = instance;
+}
+
+function getJexl(): JexlInstance {
+  if (!jexlInstance) {
+    // Only reachable when this module is used standalone (without importing
+    // 'jexl-extended'). Degrade gracefully to a plain Jexl instance.
+    jexlInstance = new Jexl();
+  }
+  return jexlInstance;
+}
 
 /**
  * Casts the input to a string.
@@ -937,7 +968,7 @@ export const arraySort = (
 ) => {
   if (!Array.isArray(input)) return [];
   if (!expression) return [...input].sort();
-  const expr = jexl.compile(expression);
+  const expr = getJexl().compile(expression);
   const compareFunction = (a: unknown, b: unknown) => {
     const aValue = expr.evalSync(a);
     const bValue = expr.evalSync(b);
@@ -1029,7 +1060,7 @@ export const mapField = (input: unknown[], field: string) => {
  */
 export const arrayMap = (input: unknown[], expression: string) => {
   if (!Array.isArray(input)) return undefined;
-  const expr = jexl.compile(expression);
+  const expr = getJexl().compile(expression);
   return input.map((value, index, array) => {
     return expr.evalSync({ value, index, array });
   });
@@ -1052,7 +1083,7 @@ export const arrayMap = (input: unknown[], expression: string) => {
  */
 export const arrayAny = (input: unknown[], expression: string) => {
   if (!Array.isArray(input)) return false;
-  const expr = jexl.compile(expression);
+  const expr = getJexl().compile(expression);
   return input.some((value, index, array) => {
     return expr.evalSync({ value, index, array });
   });
@@ -1075,7 +1106,7 @@ export const arrayAny = (input: unknown[], expression: string) => {
  */
 export const arrayEvery = (input: unknown[], expression: string) => {
   if (!Array.isArray(input)) return false;
-  const expr = jexl.compile(expression);
+  const expr = getJexl().compile(expression);
   return input.every((value, index, array) => {
     return expr.evalSync({ value, index, array });
   });
@@ -1098,7 +1129,7 @@ export const arrayEvery = (input: unknown[], expression: string) => {
  */
 export const arrayFilter = (input: unknown[], expression: string) => {
   if (!Array.isArray(input)) return [];
-  const expr = jexl.compile(expression);
+  const expr = getJexl().compile(expression);
   return input.filter((value, index, array) => {
     return expr.evalSync({ value, index, array });
   });
@@ -1121,7 +1152,7 @@ export const arrayFilter = (input: unknown[], expression: string) => {
  */
 export const arrayFind = (input: unknown[], expression: string) => {
   if (!Array.isArray(input)) return undefined;
-  const expr = jexl.compile(expression);
+  const expr = getJexl().compile(expression);
   return input.find((value, index, array) => {
     return expr.evalSync({ value, index, array });
   });
@@ -1141,7 +1172,7 @@ export const arrayFind = (input: unknown[], expression: string) => {
  */
 export const arrayFindIndex = (input: unknown[], expression: string) => {
   if (!Array.isArray(input)) return undefined;
-  const expr = jexl.compile(expression);
+  const expr = getJexl().compile(expression);
   return input.findIndex((value, index, array) => {
     return expr.evalSync({ value, index, array });
   });
@@ -1169,7 +1200,7 @@ export const arrayReduce = (
   initialValue: unknown,
 ) => {
   if (!Array.isArray(input)) return undefined;
-  const expr = jexl.compile(expression);
+  const expr = getJexl().compile(expression);
   return input.reduce((accumulator, value, index, array) => {
     return expr.evalSync({ accumulator, value, index, array });
   }, initialValue);
@@ -1459,7 +1490,7 @@ export const convertTimeZone = (
     // yyyy-MM-dd'T'HH:mm:ss.SSSSSSSXXX for ISO with 7 fractional digits and offset
     // SSSSSSS is not a standard token, so pad manually after formatting
     // Use SSS for milliseconds, then pad to 7 digits
-    const { formatInTimeZone } = require("date-fns-tz"); // Use ESM import in actual code
+    // formatInTimeZone is already imported at module level
     let formatted = formatInTimeZone(
       date,
       ianaTz,
@@ -1533,10 +1564,10 @@ export const localTimeToIsoWithOffset = (
 export const _eval = (input: unknown, expression: string) => {
   if (expression === undefined) {
     const _input = typeof input === "string" ? input : JSON.stringify(input);
-    return jexl.evalSync(_input);
+    return getJexl().evalSync(_input);
   }
   if (typeof input === "object") {
-    return jexl.evalSync(expression, input);
+    return getJexl().evalSync(expression, input);
   }
   return undefined;
 };
