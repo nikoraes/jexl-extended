@@ -7,7 +7,68 @@
 	"flags": {},
 	"children": [
 		{
-			"id": 239,
+			"id": 1,
+			"name": "__setJexlInstance",
+			"variant": "declaration",
+			"kind": 64,
+			"flags": {},
+			"sources": [
+				{
+					"fileName": "extended-grammar.ts",
+					"line": 30,
+					"character": 16,
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L30"
+				}
+			],
+			"signatures": [
+				{
+					"id": 2,
+					"name": "__setJexlInstance",
+					"variant": "signature",
+					"kind": 4096,
+					"flags": {},
+					"comment": {
+						"summary": [],
+						"modifierTags": [
+							"@internal"
+						]
+					},
+					"sources": [
+						{
+							"fileName": "extended-grammar.ts",
+							"line": 30,
+							"character": 16,
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L30"
+						}
+					],
+					"parameters": [
+						{
+							"id": 3,
+							"name": "instance",
+							"variant": "param",
+							"kind": 32768,
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"target": {
+									"packageName": "@types/jexl",
+									"packagePath": "index.d.ts",
+									"qualifiedName": "Jexl"
+								},
+								"name": "Jexl",
+								"package": "@types/jexl"
+							}
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "void"
+					}
+				}
+			]
+		},
+		{
+			"id": 242,
 			"name": "_eval",
 			"variant": "declaration",
 			"kind": 64,
@@ -15,14 +76,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1533,
+					"line": 1564,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1533"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1564"
 				}
 			],
 			"signatures": [
 				{
-					"id": 240,
+					"id": 243,
 					"name": "_eval",
 					"variant": "signature",
 					"kind": 4096,
@@ -67,14 +128,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1533,
+							"line": 1564,
 							"character": 21,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1533"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1564"
 						}
 					],
 					"parameters": [
 						{
-							"id": 241,
+							"id": 244,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -93,7 +154,7 @@
 							}
 						},
 						{
-							"id": 242,
+							"id": 245,
 							"name": "expression",
 							"variant": "param",
 							"kind": 32768,
@@ -120,7 +181,7 @@
 			]
 		},
 		{
-			"id": 85,
+			"id": 88,
 			"name": "absoluteValue",
 			"variant": "declaration",
 			"kind": 64,
@@ -128,14 +189,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 525,
+					"line": 556,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L525"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L556"
 				}
 			],
 			"signatures": [
 				{
-					"id": 86,
+					"id": 89,
 					"name": "absoluteValue",
 					"variant": "signature",
 					"kind": 4096,
@@ -180,14 +241,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 525,
+							"line": 556,
 							"character": 29,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L525"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L556"
 						}
 					],
 					"parameters": [
 						{
-							"id": 87,
+							"id": 90,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -214,7 +275,7 @@
 			]
 		},
 		{
-			"id": 174,
+			"id": 177,
 			"name": "arrayAny",
 			"variant": "declaration",
 			"kind": 64,
@@ -222,14 +283,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1053,
+					"line": 1084,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1053"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1084"
 				}
 			],
 			"signatures": [
 				{
-					"id": 175,
+					"id": 178,
 					"name": "arrayAny",
 					"variant": "signature",
 					"kind": 4096,
@@ -274,14 +335,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1053,
+							"line": 1084,
 							"character": 24,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1053"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1084"
 						}
 					],
 					"parameters": [
 						{
-							"id": 176,
+							"id": 179,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -303,7 +364,7 @@
 							}
 						},
 						{
-							"id": 177,
+							"id": 180,
 							"name": "expression",
 							"variant": "param",
 							"kind": 32768,
@@ -330,7 +391,7 @@
 			]
 		},
 		{
-			"id": 145,
+			"id": 148,
 			"name": "arrayAppend",
 			"variant": "declaration",
 			"kind": 64,
@@ -338,14 +399,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 875,
+					"line": 906,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L875"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L906"
 				}
 			],
 			"signatures": [
 				{
-					"id": 146,
+					"id": 149,
 					"name": "arrayAppend",
 					"variant": "signature",
 					"kind": 4096,
@@ -390,14 +451,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 875,
+							"line": 906,
 							"character": 27,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L875"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L906"
 						}
 					],
 					"parameters": [
 						{
-							"id": 147,
+							"id": 150,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -432,7 +493,7 @@
 			]
 		},
 		{
-			"id": 159,
+			"id": 162,
 			"name": "arrayDistinct",
 			"variant": "declaration",
 			"kind": 64,
@@ -440,14 +501,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 963,
+					"line": 994,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L963"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L994"
 				}
 			],
 			"signatures": [
 				{
-					"id": 160,
+					"id": 163,
 					"name": "arrayDistinct",
 					"variant": "signature",
 					"kind": 4096,
@@ -492,14 +553,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 963,
+							"line": 994,
 							"character": 29,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L963"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L994"
 						}
 					],
 					"parameters": [
 						{
-							"id": 161,
+							"id": 164,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -532,7 +593,7 @@
 			]
 		},
 		{
-			"id": 178,
+			"id": 181,
 			"name": "arrayEvery",
 			"variant": "declaration",
 			"kind": 64,
@@ -540,14 +601,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1076,
+					"line": 1107,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1076"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1107"
 				}
 			],
 			"signatures": [
 				{
-					"id": 179,
+					"id": 182,
 					"name": "arrayEvery",
 					"variant": "signature",
 					"kind": 4096,
@@ -592,14 +653,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1076,
+							"line": 1107,
 							"character": 26,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1076"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1107"
 						}
 					],
 					"parameters": [
 						{
-							"id": 180,
+							"id": 183,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -621,7 +682,7 @@
 							}
 						},
 						{
-							"id": 181,
+							"id": 184,
 							"name": "expression",
 							"variant": "param",
 							"kind": 32768,
@@ -648,7 +709,7 @@
 			]
 		},
 		{
-			"id": 182,
+			"id": 185,
 			"name": "arrayFilter",
 			"variant": "declaration",
 			"kind": 64,
@@ -656,14 +717,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1099,
+					"line": 1130,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1099"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1130"
 				}
 			],
 			"signatures": [
 				{
-					"id": 183,
+					"id": 186,
 					"name": "arrayFilter",
 					"variant": "signature",
 					"kind": 4096,
@@ -708,14 +769,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1099,
+							"line": 1130,
 							"character": 27,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1099"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1130"
 						}
 					],
 					"parameters": [
 						{
-							"id": 184,
+							"id": 187,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -737,7 +798,7 @@
 							}
 						},
 						{
-							"id": 185,
+							"id": 188,
 							"name": "expression",
 							"variant": "param",
 							"kind": 32768,
@@ -767,7 +828,7 @@
 			]
 		},
 		{
-			"id": 186,
+			"id": 189,
 			"name": "arrayFind",
 			"variant": "declaration",
 			"kind": 64,
@@ -775,14 +836,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1122,
+					"line": 1153,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1122"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1153"
 				}
 			],
 			"signatures": [
 				{
-					"id": 187,
+					"id": 190,
 					"name": "arrayFind",
 					"variant": "signature",
 					"kind": 4096,
@@ -827,14 +888,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1122,
+							"line": 1153,
 							"character": 25,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1122"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1153"
 						}
 					],
 					"parameters": [
 						{
-							"id": 188,
+							"id": 191,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -856,7 +917,7 @@
 							}
 						},
 						{
-							"id": 189,
+							"id": 192,
 							"name": "expression",
 							"variant": "param",
 							"kind": 32768,
@@ -883,7 +944,7 @@
 			]
 		},
 		{
-			"id": 190,
+			"id": 193,
 			"name": "arrayFindIndex",
 			"variant": "declaration",
 			"kind": 64,
@@ -891,14 +952,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1142,
+					"line": 1173,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1142"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1173"
 				}
 			],
 			"signatures": [
 				{
-					"id": 191,
+					"id": 194,
 					"name": "arrayFindIndex",
 					"variant": "signature",
 					"kind": 4096,
@@ -959,14 +1020,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1142,
+							"line": 1173,
 							"character": 30,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1142"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1173"
 						}
 					],
 					"parameters": [
 						{
-							"id": 192,
+							"id": 195,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -988,7 +1049,7 @@
 							}
 						},
 						{
-							"id": 193,
+							"id": 196,
 							"name": "expression",
 							"variant": "param",
 							"kind": 32768,
@@ -1039,7 +1100,7 @@
 			]
 		},
 		{
-			"id": 61,
+			"id": 64,
 			"name": "arrayJoin",
 			"variant": "declaration",
 			"kind": 64,
@@ -1047,14 +1108,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 365,
+					"line": 396,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L365"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L396"
 				}
 			],
 			"signatures": [
 				{
-					"id": 62,
+					"id": 65,
 					"name": "arrayJoin",
 					"variant": "signature",
 					"kind": 4096,
@@ -1099,14 +1160,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 365,
+							"line": 396,
 							"character": 25,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L365"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L396"
 						}
 					],
 					"parameters": [
 						{
-							"id": 63,
+							"id": 66,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -1125,7 +1186,7 @@
 							}
 						},
 						{
-							"id": 64,
+							"id": 67,
 							"name": "separator",
 							"variant": "param",
 							"kind": 32768,
@@ -1154,7 +1215,7 @@
 			]
 		},
 		{
-			"id": 170,
+			"id": 173,
 			"name": "arrayMap",
 			"variant": "declaration",
 			"kind": 64,
@@ -1162,14 +1223,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1030,
+					"line": 1061,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1030"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1061"
 				}
 			],
 			"signatures": [
 				{
-					"id": 171,
+					"id": 174,
 					"name": "arrayMap",
 					"variant": "signature",
 					"kind": 4096,
@@ -1214,14 +1275,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1030,
+							"line": 1061,
 							"character": 24,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1030"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1061"
 						}
 					],
 					"parameters": [
 						{
-							"id": 172,
+							"id": 175,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -1243,7 +1304,7 @@
 							}
 						},
 						{
-							"id": 173,
+							"id": 176,
 							"name": "expression",
 							"variant": "param",
 							"kind": 32768,
@@ -1273,7 +1334,7 @@
 			]
 		},
 		{
-			"id": 140,
+			"id": 143,
 			"name": "arrayRange",
 			"variant": "declaration",
 			"kind": 64,
@@ -1281,14 +1342,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 858,
+					"line": 889,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L858"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L889"
 				}
 			],
 			"signatures": [
 				{
-					"id": 141,
+					"id": 144,
 					"name": "arrayRange",
 					"variant": "signature",
 					"kind": 4096,
@@ -1333,14 +1394,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 858,
+							"line": 889,
 							"character": 26,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L858"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L889"
 						}
 					],
 					"parameters": [
 						{
-							"id": 142,
+							"id": 145,
 							"name": "array",
 							"variant": "param",
 							"kind": 32768,
@@ -1362,7 +1423,7 @@
 							}
 						},
 						{
-							"id": 143,
+							"id": 146,
 							"name": "start",
 							"variant": "param",
 							"kind": 32768,
@@ -1381,7 +1442,7 @@
 							}
 						},
 						{
-							"id": 144,
+							"id": 147,
 							"name": "end",
 							"variant": "param",
 							"kind": 32768,
@@ -1413,7 +1474,7 @@
 			]
 		},
 		{
-			"id": 194,
+			"id": 197,
 			"name": "arrayReduce",
 			"variant": "declaration",
 			"kind": 64,
@@ -1421,14 +1482,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1166,
+					"line": 1197,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1166"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1197"
 				}
 			],
 			"signatures": [
 				{
-					"id": 195,
+					"id": 198,
 					"name": "arrayReduce",
 					"variant": "signature",
 					"kind": 4096,
@@ -1473,14 +1534,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1166,
+							"line": 1197,
 							"character": 27,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1166"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1197"
 						}
 					],
 					"parameters": [
 						{
-							"id": 196,
+							"id": 199,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -1502,7 +1563,7 @@
 							}
 						},
 						{
-							"id": 197,
+							"id": 200,
 							"name": "expression",
 							"variant": "param",
 							"kind": 32768,
@@ -1521,7 +1582,7 @@
 							}
 						},
 						{
-							"id": 198,
+							"id": 201,
 							"name": "initialValue",
 							"variant": "param",
 							"kind": 32768,
@@ -1548,7 +1609,7 @@
 			]
 		},
 		{
-			"id": 148,
+			"id": 151,
 			"name": "arrayReverse",
 			"variant": "declaration",
 			"kind": 64,
@@ -1556,14 +1617,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 892,
+					"line": 923,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L892"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L923"
 				}
 			],
 			"signatures": [
 				{
-					"id": 149,
+					"id": 152,
 					"name": "arrayReverse",
 					"variant": "signature",
 					"kind": 4096,
@@ -1608,14 +1669,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 892,
+							"line": 923,
 							"character": 28,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L892"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L923"
 						}
 					],
 					"parameters": [
 						{
-							"id": 150,
+							"id": 153,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -1650,7 +1711,7 @@
 			]
 		},
 		{
-			"id": 151,
+			"id": 154,
 			"name": "arrayShuffle",
 			"variant": "declaration",
 			"kind": 64,
@@ -1658,14 +1719,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 909,
+					"line": 940,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L909"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L940"
 				}
 			],
 			"signatures": [
 				{
-					"id": 152,
+					"id": 155,
 					"name": "arrayShuffle",
 					"variant": "signature",
 					"kind": 4096,
@@ -1710,14 +1771,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 909,
+							"line": 940,
 							"character": 28,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L909"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L940"
 						}
 					],
 					"parameters": [
 						{
-							"id": 153,
+							"id": 156,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -1750,7 +1811,7 @@
 			]
 		},
 		{
-			"id": 154,
+			"id": 157,
 			"name": "arraySort",
 			"variant": "declaration",
 			"kind": 64,
@@ -1758,14 +1819,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 933,
+					"line": 964,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L933"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L964"
 				}
 			],
 			"signatures": [
 				{
-					"id": 155,
+					"id": 158,
 					"name": "arraySort",
 					"variant": "signature",
 					"kind": 4096,
@@ -1810,14 +1871,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 933,
+							"line": 964,
 							"character": 25,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L933"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L964"
 						}
 					],
 					"parameters": [
 						{
-							"id": 156,
+							"id": 159,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -1839,7 +1900,7 @@
 							}
 						},
 						{
-							"id": 157,
+							"id": 160,
 							"name": "expression",
 							"variant": "param",
 							"kind": 32768,
@@ -1860,7 +1921,7 @@
 							}
 						},
 						{
-							"id": 158,
+							"id": 161,
 							"name": "descending",
 							"variant": "param",
 							"kind": 32768,
@@ -1892,7 +1953,7 @@
 			]
 		},
 		{
-			"id": 162,
+			"id": 165,
 			"name": "arrayToObject",
 			"variant": "declaration",
 			"kind": 64,
@@ -1900,14 +1961,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 982,
+					"line": 1013,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L982"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1013"
 				}
 			],
 			"signatures": [
 				{
-					"id": 163,
+					"id": 166,
 					"name": "arrayToObject",
 					"variant": "signature",
 					"kind": 4096,
@@ -1952,14 +2013,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 982,
+							"line": 1013,
 							"character": 29,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L982"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1013"
 						}
 					],
 					"parameters": [
 						{
-							"id": 164,
+							"id": 167,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -1978,7 +2039,7 @@
 							}
 						},
 						{
-							"id": 165,
+							"id": 168,
 							"name": "val",
 							"variant": "param",
 							"kind": 32768,
@@ -2007,7 +2068,7 @@
 			]
 		},
 		{
-			"id": 128,
+			"id": 131,
 			"name": "average",
 			"variant": "declaration",
 			"kind": 64,
@@ -2015,14 +2076,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 765,
+					"line": 796,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L765"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L796"
 				}
 			],
 			"signatures": [
 				{
-					"id": 129,
+					"id": 132,
 					"name": "average",
 					"variant": "signature",
 					"kind": 4096,
@@ -2067,14 +2128,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 765,
+							"line": 796,
 							"character": 23,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L765"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L796"
 						}
 					],
 					"parameters": [
 						{
-							"id": 130,
+							"id": 133,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -2106,7 +2167,7 @@
 			]
 		},
 		{
-			"id": 73,
+			"id": 76,
 			"name": "base64Decode",
 			"variant": "declaration",
 			"kind": 64,
@@ -2114,14 +2175,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 436,
+					"line": 467,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L436"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L467"
 				}
 			],
 			"signatures": [
 				{
-					"id": 74,
+					"id": 77,
 					"name": "base64Decode",
 					"variant": "signature",
 					"kind": 4096,
@@ -2166,14 +2227,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 436,
+							"line": 467,
 							"character": 28,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L436"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L467"
 						}
 					],
 					"parameters": [
 						{
-							"id": 75,
+							"id": 78,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -2200,7 +2261,7 @@
 			]
 		},
 		{
-			"id": 70,
+			"id": 73,
 			"name": "base64Encode",
 			"variant": "declaration",
 			"kind": 64,
@@ -2208,14 +2269,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 410,
+					"line": 441,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L410"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L441"
 				}
 			],
 			"signatures": [
 				{
-					"id": 71,
+					"id": 74,
 					"name": "base64Encode",
 					"variant": "signature",
 					"kind": 4096,
@@ -2260,14 +2321,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 410,
+							"line": 441,
 							"character": 28,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L410"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L441"
 						}
 					],
 					"parameters": [
 						{
-							"id": 72,
+							"id": 75,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -2294,7 +2355,7 @@
 			]
 		},
 		{
-			"id": 30,
+			"id": 33,
 			"name": "camelCase",
 			"variant": "declaration",
 			"kind": 64,
@@ -2302,14 +2363,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 195,
+					"line": 226,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L195"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L226"
 				}
 			],
 			"signatures": [
 				{
-					"id": 31,
+					"id": 34,
 					"name": "camelCase",
 					"variant": "signature",
 					"kind": 4096,
@@ -2354,14 +2415,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 195,
+							"line": 226,
 							"character": 25,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L195"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L226"
 						}
 					],
 					"parameters": [
 						{
-							"id": 32,
+							"id": 35,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -2388,7 +2449,7 @@
 			]
 		},
 		{
-			"id": 91,
+			"id": 94,
 			"name": "ceil",
 			"variant": "declaration",
 			"kind": 64,
@@ -2396,14 +2457,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 559,
+					"line": 590,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L559"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L590"
 				}
 			],
 			"signatures": [
 				{
-					"id": 92,
+					"id": 95,
 					"name": "ceil",
 					"variant": "signature",
 					"kind": 4096,
@@ -2448,14 +2509,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 559,
+							"line": 590,
 							"character": 20,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L559"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L590"
 						}
 					],
 					"parameters": [
 						{
-							"id": 93,
+							"id": 96,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -2482,7 +2543,7 @@
 			]
 		},
 		{
-			"id": 45,
+			"id": 48,
 			"name": "contains",
 			"variant": "declaration",
 			"kind": 64,
@@ -2490,14 +2551,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 285,
+					"line": 316,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L285"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L316"
 				}
 			],
 			"signatures": [
 				{
-					"id": 46,
+					"id": 49,
 					"name": "contains",
 					"variant": "signature",
 					"kind": 4096,
@@ -2542,14 +2603,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 285,
+							"line": 316,
 							"character": 24,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L285"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L316"
 						}
 					],
 					"parameters": [
 						{
-							"id": 47,
+							"id": 50,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -2568,7 +2629,7 @@
 							}
 						},
 						{
-							"id": 48,
+							"id": 51,
 							"name": "search",
 							"variant": "param",
 							"kind": 32768,
@@ -2595,7 +2656,7 @@
 			]
 		},
 		{
-			"id": 231,
+			"id": 234,
 			"name": "convertTimeZone",
 			"variant": "declaration",
 			"kind": 64,
@@ -2603,14 +2664,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1412,
+					"line": 1443,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1412"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1443"
 				}
 			],
 			"signatures": [
 				{
-					"id": 232,
+					"id": 235,
 					"name": "convertTimeZone",
 					"variant": "signature",
 					"kind": 4096,
@@ -2655,14 +2716,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1412,
+							"line": 1443,
 							"character": 31,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1412"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1443"
 						}
 					],
 					"parameters": [
 						{
-							"id": 233,
+							"id": 236,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -2681,7 +2742,7 @@
 							}
 						},
 						{
-							"id": 234,
+							"id": 237,
 							"name": "targetTimeZone",
 							"variant": "param",
 							"kind": 32768,
@@ -2708,7 +2769,7 @@
 			]
 		},
 		{
-			"id": 226,
+			"id": 229,
 			"name": "dateTimeAdd",
 			"variant": "declaration",
 			"kind": 64,
@@ -2716,14 +2777,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1390,
+					"line": 1421,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1390"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1421"
 				}
 			],
 			"signatures": [
 				{
-					"id": 227,
+					"id": 230,
 					"name": "dateTimeAdd",
 					"variant": "signature",
 					"kind": 4096,
@@ -2768,14 +2829,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1390,
+							"line": 1421,
 							"character": 27,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1390"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1421"
 						}
 					],
 					"parameters": [
 						{
-							"id": 228,
+							"id": 231,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -2794,7 +2855,7 @@
 							}
 						},
 						{
-							"id": 229,
+							"id": 232,
 							"name": "unit",
 							"variant": "param",
 							"kind": 32768,
@@ -2813,7 +2874,7 @@
 							}
 						},
 						{
-							"id": 230,
+							"id": 233,
 							"name": "value",
 							"variant": "param",
 							"kind": 32768,
@@ -2840,7 +2901,7 @@
 			]
 		},
 		{
-			"id": 219,
+			"id": 222,
 			"name": "dateTimeFormat",
 			"variant": "declaration",
 			"kind": 64,
@@ -2848,14 +2909,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1338,
+					"line": 1369,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1338"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1369"
 				}
 			],
 			"signatures": [
 				{
-					"id": 220,
+					"id": 223,
 					"name": "dateTimeFormat",
 					"variant": "signature",
 					"kind": 4096,
@@ -2900,14 +2961,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1338,
+							"line": 1369,
 							"character": 30,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1338"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1369"
 						}
 					],
 					"parameters": [
 						{
-							"id": 221,
+							"id": 224,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -2935,7 +2996,7 @@
 							}
 						},
 						{
-							"id": 222,
+							"id": 225,
 							"name": "format",
 							"variant": "param",
 							"kind": 32768,
@@ -2962,7 +3023,7 @@
 			]
 		},
 		{
-			"id": 223,
+			"id": 226,
 			"name": "dateTimeToMillis",
 			"variant": "declaration",
 			"kind": 64,
@@ -2970,14 +3031,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1372,
+					"line": 1403,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1372"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1403"
 				}
 			],
 			"signatures": [
 				{
-					"id": 224,
+					"id": 227,
 					"name": "dateTimeToMillis",
 					"variant": "signature",
 					"kind": 4096,
@@ -3022,14 +3083,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1372,
+							"line": 1403,
 							"character": 32,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1372"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1403"
 						}
 					],
 					"parameters": [
 						{
-							"id": 225,
+							"id": 228,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -3056,7 +3117,7 @@
 			]
 		},
 		{
-			"id": 53,
+			"id": 56,
 			"name": "endsWith",
 			"variant": "declaration",
 			"kind": 64,
@@ -3064,14 +3125,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 325,
+					"line": 356,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L325"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L356"
 				}
 			],
 			"signatures": [
 				{
-					"id": 54,
+					"id": 57,
 					"name": "endsWith",
 					"variant": "signature",
 					"kind": 4096,
@@ -3116,14 +3177,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 325,
+							"line": 356,
 							"character": 24,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L325"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L356"
 						}
 					],
 					"parameters": [
 						{
-							"id": 55,
+							"id": 58,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -3142,7 +3203,7 @@
 							}
 						},
 						{
-							"id": 56,
+							"id": 59,
 							"name": "search",
 							"variant": "param",
 							"kind": 32768,
@@ -3169,7 +3230,7 @@
 			]
 		},
 		{
-			"id": 88,
+			"id": 91,
 			"name": "floor",
 			"variant": "declaration",
 			"kind": 64,
@@ -3177,14 +3238,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 542,
+					"line": 573,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L542"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L573"
 				}
 			],
 			"signatures": [
 				{
-					"id": 89,
+					"id": 92,
 					"name": "floor",
 					"variant": "signature",
 					"kind": 4096,
@@ -3229,14 +3290,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 542,
+							"line": 573,
 							"character": 21,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L542"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L573"
 						}
 					],
 					"parameters": [
 						{
-							"id": 90,
+							"id": 93,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -3263,7 +3324,7 @@
 			]
 		},
 		{
-			"id": 111,
+			"id": 114,
 			"name": "formatBase",
 			"variant": "declaration",
 			"kind": 64,
@@ -3271,14 +3332,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 676,
+					"line": 707,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L676"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L707"
 				}
 			],
 			"signatures": [
 				{
-					"id": 112,
+					"id": 115,
 					"name": "formatBase",
 					"variant": "signature",
 					"kind": 4096,
@@ -3323,14 +3384,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 676,
+							"line": 707,
 							"character": 26,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L676"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L707"
 						}
 					],
 					"parameters": [
 						{
-							"id": 113,
+							"id": 116,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -3349,7 +3410,7 @@
 							}
 						},
 						{
-							"id": 114,
+							"id": 117,
 							"name": "base",
 							"variant": "param",
 							"kind": 32768,
@@ -3376,7 +3437,7 @@
 			]
 		},
 		{
-			"id": 115,
+			"id": 118,
 			"name": "formatInteger",
 			"variant": "declaration",
 			"kind": 64,
@@ -3384,14 +3445,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 697,
+					"line": 728,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L697"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L728"
 				}
 			],
 			"signatures": [
 				{
-					"id": 116,
+					"id": 119,
 					"name": "formatInteger",
 					"variant": "signature",
 					"kind": 4096,
@@ -3436,14 +3497,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 697,
+							"line": 728,
 							"character": 29,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L697"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L728"
 						}
 					],
 					"parameters": [
 						{
-							"id": 117,
+							"id": 120,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -3462,7 +3523,7 @@
 							}
 						},
 						{
-							"id": 118,
+							"id": 121,
 							"name": "format",
 							"variant": "param",
 							"kind": 32768,
@@ -3489,7 +3550,7 @@
 			]
 		},
 		{
-			"id": 107,
+			"id": 110,
 			"name": "formatNumber",
 			"variant": "declaration",
 			"kind": 64,
@@ -3497,14 +3558,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 649,
+					"line": 680,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L649"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L680"
 				}
 			],
 			"signatures": [
 				{
-					"id": 108,
+					"id": 111,
 					"name": "formatNumber",
 					"variant": "signature",
 					"kind": 4096,
@@ -3549,14 +3610,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 649,
+							"line": 680,
 							"character": 28,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L649"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L680"
 						}
 					],
 					"parameters": [
 						{
-							"id": 109,
+							"id": 112,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -3575,7 +3636,7 @@
 							}
 						},
 						{
-							"id": 110,
+							"id": 113,
 							"name": "format",
 							"variant": "param",
 							"kind": 32768,
@@ -3602,7 +3663,7 @@
 			]
 		},
 		{
-			"id": 76,
+			"id": 79,
 			"name": "formUrlEncoded",
 			"variant": "declaration",
 			"kind": 64,
@@ -3610,14 +3671,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 461,
+					"line": 492,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L461"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L492"
 				}
 			],
 			"signatures": [
 				{
-					"id": 77,
+					"id": 80,
 					"name": "formUrlEncoded",
 					"variant": "signature",
 					"kind": 4096,
@@ -3662,14 +3723,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 461,
+							"line": 492,
 							"character": 30,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L461"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L492"
 						}
 					],
 					"parameters": [
 						{
-							"id": 78,
+							"id": 81,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -3696,7 +3757,7 @@
 			]
 		},
 		{
-			"id": 245,
+			"id": 248,
 			"name": "getType",
 			"variant": "declaration",
 			"kind": 64,
@@ -3704,14 +3765,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1576,
+					"line": 1607,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1576"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1607"
 				}
 			],
 			"signatures": [
 				{
-					"id": 246,
+					"id": 249,
 					"name": "getType",
 					"variant": "signature",
 					"kind": 4096,
@@ -3747,14 +3808,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1576,
+							"line": 1607,
 							"character": 23,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1576"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1607"
 						}
 					],
 					"parameters": [
 						{
-							"id": 247,
+							"id": 250,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -3781,7 +3842,7 @@
 			]
 		},
 		{
-			"id": 8,
+			"id": 11,
 			"name": "length",
 			"variant": "declaration",
 			"kind": 64,
@@ -3789,14 +3850,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 55,
+					"line": 86,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L55"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L86"
 				}
 			],
 			"signatures": [
 				{
-					"id": 9,
+					"id": 12,
 					"name": "length",
 					"variant": "signature",
 					"kind": 4096,
@@ -3841,14 +3902,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 55,
+							"line": 86,
 							"character": 22,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L55"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L86"
 						}
 					],
 					"parameters": [
 						{
-							"id": 10,
+							"id": 13,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -3875,7 +3936,7 @@
 			]
 		},
 		{
-			"id": 235,
+			"id": 238,
 			"name": "localTimeToIsoWithOffset",
 			"variant": "declaration",
 			"kind": 64,
@@ -3883,14 +3944,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1495,
+					"line": 1526,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1495"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1526"
 				}
 			],
 			"signatures": [
 				{
-					"id": 236,
+					"id": 239,
 					"name": "localTimeToIsoWithOffset",
 					"variant": "signature",
 					"kind": 4096,
@@ -3935,14 +3996,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1495,
+							"line": 1526,
 							"character": 40,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1495"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1526"
 						}
 					],
 					"parameters": [
 						{
-							"id": 237,
+							"id": 240,
 							"name": "localTime",
 							"variant": "param",
 							"kind": 32768,
@@ -3961,7 +4022,7 @@
 							}
 						},
 						{
-							"id": 238,
+							"id": 241,
 							"name": "timeZone",
 							"variant": "param",
 							"kind": 32768,
@@ -3988,7 +4049,7 @@
 			]
 		},
 		{
-			"id": 27,
+			"id": 30,
 			"name": "lowercase",
 			"variant": "declaration",
 			"kind": 64,
@@ -3996,14 +4057,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 177,
+					"line": 208,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L177"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L208"
 				}
 			],
 			"signatures": [
 				{
-					"id": 28,
+					"id": 31,
 					"name": "lowercase",
 					"variant": "signature",
 					"kind": 4096,
@@ -4048,14 +4109,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 177,
+							"line": 208,
 							"character": 25,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L177"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L208"
 						}
 					],
 					"parameters": [
 						{
-							"id": 29,
+							"id": 32,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -4082,7 +4143,7 @@
 			]
 		},
 		{
-			"id": 166,
+			"id": 169,
 			"name": "mapField",
 			"variant": "declaration",
 			"kind": 64,
@@ -4090,14 +4151,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1010,
+					"line": 1041,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1010"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1041"
 				}
 			],
 			"signatures": [
 				{
-					"id": 167,
+					"id": 170,
 					"name": "mapField",
 					"variant": "signature",
 					"kind": 4096,
@@ -4142,14 +4203,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1010,
+							"line": 1041,
 							"character": 24,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1010"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1041"
 						}
 					],
 					"parameters": [
 						{
-							"id": 168,
+							"id": 171,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -4171,7 +4232,7 @@
 							}
 						},
 						{
-							"id": 169,
+							"id": 172,
 							"name": "field",
 							"variant": "param",
 							"kind": 32768,
@@ -4201,7 +4262,7 @@
 			]
 		},
 		{
-			"id": 122,
+			"id": 125,
 			"name": "max",
 			"variant": "declaration",
 			"kind": 64,
@@ -4209,14 +4270,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 731,
+					"line": 762,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L731"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L762"
 				}
 			],
 			"signatures": [
 				{
-					"id": 123,
+					"id": 126,
 					"name": "max",
 					"variant": "signature",
 					"kind": 4096,
@@ -4261,14 +4322,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 731,
+							"line": 762,
 							"character": 19,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L731"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L762"
 						}
 					],
 					"parameters": [
 						{
-							"id": 124,
+							"id": 127,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -4300,7 +4361,7 @@
 			]
 		},
 		{
-			"id": 213,
+			"id": 216,
 			"name": "millis",
 			"variant": "declaration",
 			"kind": 64,
@@ -4308,14 +4369,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1287,
+					"line": 1318,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1287"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1318"
 				}
 			],
 			"signatures": [
 				{
-					"id": 214,
+					"id": 217,
 					"name": "millis",
 					"variant": "signature",
 					"kind": 4096,
@@ -4360,9 +4421,9 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1287,
+							"line": 1318,
 							"character": 22,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1287"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1318"
 						}
 					],
 					"type": {
@@ -4373,7 +4434,7 @@
 			]
 		},
 		{
-			"id": 125,
+			"id": 128,
 			"name": "min",
 			"variant": "declaration",
 			"kind": 64,
@@ -4381,14 +4442,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 748,
+					"line": 779,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L748"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L779"
 				}
 			],
 			"signatures": [
 				{
-					"id": 126,
+					"id": 129,
 					"name": "min",
 					"variant": "signature",
 					"kind": 4096,
@@ -4433,14 +4494,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 748,
+							"line": 779,
 							"character": 19,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L748"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L779"
 						}
 					],
 					"parameters": [
 						{
-							"id": 127,
+							"id": 130,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -4472,7 +4533,7 @@
 			]
 		},
 		{
-			"id": 134,
+			"id": 137,
 			"name": "not",
 			"variant": "declaration",
 			"kind": 64,
@@ -4480,14 +4541,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 810,
+					"line": 841,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L810"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L841"
 				}
 			],
 			"signatures": [
 				{
-					"id": 135,
+					"id": 138,
 					"name": "not",
 					"variant": "signature",
 					"kind": 4096,
@@ -4532,14 +4593,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 810,
+							"line": 841,
 							"character": 19,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L810"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L841"
 						}
 					],
 					"parameters": [
 						{
-							"id": 136,
+							"id": 139,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -4566,7 +4627,7 @@
 			]
 		},
 		{
-			"id": 211,
+			"id": 214,
 			"name": "now",
 			"variant": "declaration",
 			"kind": 64,
@@ -4574,14 +4635,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1273,
+					"line": 1304,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1273"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1304"
 				}
 			],
 			"signatures": [
 				{
-					"id": 212,
+					"id": 215,
 					"name": "now",
 					"variant": "signature",
 					"kind": 4096,
@@ -4626,9 +4687,9 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1273,
+							"line": 1304,
 							"character": 19,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1273"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1304"
 						}
 					],
 					"type": {
@@ -4639,7 +4700,7 @@
 			]
 		},
 		{
-			"id": 205,
+			"id": 208,
 			"name": "objectEntries",
 			"variant": "declaration",
 			"kind": 64,
@@ -4647,14 +4708,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1228,
+					"line": 1259,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1228"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1259"
 				}
 			],
 			"signatures": [
 				{
-					"id": 206,
+					"id": 209,
 					"name": "objectEntries",
 					"variant": "signature",
 					"kind": 4096,
@@ -4699,14 +4760,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1228,
+							"line": 1259,
 							"character": 29,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1228"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1259"
 						}
 					],
 					"parameters": [
 						{
-							"id": 207,
+							"id": 210,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -4745,7 +4806,7 @@
 			]
 		},
 		{
-			"id": 199,
+			"id": 202,
 			"name": "objectKeys",
 			"variant": "declaration",
 			"kind": 64,
@@ -4753,14 +4814,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1190,
+					"line": 1221,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1190"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1221"
 				}
 			],
 			"signatures": [
 				{
-					"id": 200,
+					"id": 203,
 					"name": "objectKeys",
 					"variant": "signature",
 					"kind": 4096,
@@ -4805,14 +4866,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1190,
+							"line": 1221,
 							"character": 26,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1190"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1221"
 						}
 					],
 					"parameters": [
 						{
-							"id": 201,
+							"id": 204,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -4842,7 +4903,7 @@
 			]
 		},
 		{
-			"id": 208,
+			"id": 211,
 			"name": "objectMerge",
 			"variant": "declaration",
 			"kind": 64,
@@ -4850,14 +4911,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1247,
+					"line": 1278,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1247"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1278"
 				}
 			],
 			"signatures": [
 				{
-					"id": 209,
+					"id": 212,
 					"name": "objectMerge",
 					"variant": "signature",
 					"kind": 4096,
@@ -4902,14 +4963,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1247,
+							"line": 1278,
 							"character": 27,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1247"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1278"
 						}
 					],
 					"parameters": [
 						{
-							"id": 210,
+							"id": 213,
 							"name": "args",
 							"variant": "param",
 							"kind": 32768,
@@ -4957,7 +5018,7 @@
 			]
 		},
 		{
-			"id": 202,
+			"id": 205,
 			"name": "objectValues",
 			"variant": "declaration",
 			"kind": 64,
@@ -4965,14 +5026,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1209,
+					"line": 1240,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1209"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1240"
 				}
 			],
 			"signatures": [
 				{
-					"id": 203,
+					"id": 206,
 					"name": "objectValues",
 					"variant": "signature",
 					"kind": 4096,
@@ -5017,14 +5078,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1209,
+							"line": 1240,
 							"character": 28,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1209"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1240"
 						}
 					],
 					"parameters": [
 						{
-							"id": 204,
+							"id": 207,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -5054,7 +5115,7 @@
 			]
 		},
 		{
-			"id": 40,
+			"id": 43,
 			"name": "pad",
 			"variant": "declaration",
 			"kind": 64,
@@ -5062,14 +5123,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 263,
+					"line": 294,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L263"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L294"
 				}
 			],
 			"signatures": [
 				{
-					"id": 41,
+					"id": 44,
 					"name": "pad",
 					"variant": "signature",
 					"kind": 4096,
@@ -5114,14 +5175,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 263,
+							"line": 294,
 							"character": 19,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L263"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L294"
 						}
 					],
 					"parameters": [
 						{
-							"id": 42,
+							"id": 45,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -5140,7 +5201,7 @@
 							}
 						},
 						{
-							"id": 43,
+							"id": 46,
 							"name": "width",
 							"variant": "param",
 							"kind": 32768,
@@ -5159,7 +5220,7 @@
 							}
 						},
 						{
-							"id": 44,
+							"id": 47,
 							"name": "char",
 							"variant": "param",
 							"kind": 32768,
@@ -5187,7 +5248,7 @@
 			]
 		},
 		{
-			"id": 82,
+			"id": 85,
 			"name": "parseInteger",
 			"variant": "declaration",
 			"kind": 64,
@@ -5195,14 +5256,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 504,
+					"line": 535,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L504"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L535"
 				}
 			],
 			"signatures": [
 				{
-					"id": 83,
+					"id": 86,
 					"name": "parseInteger",
 					"variant": "signature",
 					"kind": 4096,
@@ -5247,14 +5308,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 504,
+							"line": 535,
 							"character": 28,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L504"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L535"
 						}
 					],
 					"parameters": [
 						{
-							"id": 84,
+							"id": 87,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -5281,7 +5342,7 @@
 			]
 		},
 		{
-			"id": 33,
+			"id": 36,
 			"name": "pascalCase",
 			"variant": "declaration",
 			"kind": 64,
@@ -5289,14 +5350,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 218,
+					"line": 249,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L218"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L249"
 				}
 			],
 			"signatures": [
 				{
-					"id": 34,
+					"id": 37,
 					"name": "pascalCase",
 					"variant": "signature",
 					"kind": 4096,
@@ -5341,14 +5402,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 218,
+							"line": 249,
 							"character": 26,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L218"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L249"
 						}
 					],
 					"parameters": [
 						{
-							"id": 35,
+							"id": 38,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -5375,7 +5436,7 @@
 			]
 		},
 		{
-			"id": 98,
+			"id": 101,
 			"name": "power",
 			"variant": "declaration",
 			"kind": 64,
@@ -5383,14 +5444,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 599,
+					"line": 630,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L599"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L630"
 				}
 			],
 			"signatures": [
 				{
-					"id": 99,
+					"id": 102,
 					"name": "power",
 					"variant": "signature",
 					"kind": 4096,
@@ -5435,14 +5496,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 599,
+							"line": 630,
 							"character": 21,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L599"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L630"
 						}
 					],
 					"parameters": [
 						{
-							"id": 100,
+							"id": 103,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -5461,7 +5522,7 @@
 							}
 						},
 						{
-							"id": 101,
+							"id": 104,
 							"name": "exponent",
 							"variant": "param",
 							"kind": 32768,
@@ -5490,7 +5551,7 @@
 			]
 		},
 		{
-			"id": 105,
+			"id": 108,
 			"name": "randomNumber",
 			"variant": "declaration",
 			"kind": 64,
@@ -5498,14 +5559,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 632,
+					"line": 663,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L632"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L663"
 				}
 			],
 			"signatures": [
 				{
-					"id": 106,
+					"id": 109,
 					"name": "randomNumber",
 					"variant": "signature",
 					"kind": 4096,
@@ -5550,9 +5611,9 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 632,
+							"line": 663,
 							"character": 28,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L632"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L663"
 						}
 					],
 					"type": {
@@ -5563,7 +5624,7 @@
 			]
 		},
 		{
-			"id": 65,
+			"id": 68,
 			"name": "replace",
 			"variant": "declaration",
 			"kind": 64,
@@ -5571,14 +5632,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 386,
+					"line": 417,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L386"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L417"
 				}
 			],
 			"signatures": [
 				{
-					"id": 66,
+					"id": 69,
 					"name": "replace",
 					"variant": "signature",
 					"kind": 4096,
@@ -5623,14 +5684,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 386,
+							"line": 417,
 							"character": 23,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L386"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L417"
 						}
 					],
 					"parameters": [
 						{
-							"id": 67,
+							"id": 70,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -5649,7 +5710,7 @@
 							}
 						},
 						{
-							"id": 68,
+							"id": 71,
 							"name": "search",
 							"variant": "param",
 							"kind": 32768,
@@ -5668,7 +5729,7 @@
 							}
 						},
 						{
-							"id": 69,
+							"id": 72,
 							"name": "replacement",
 							"variant": "param",
 							"kind": 32768,
@@ -5695,7 +5756,7 @@
 			]
 		},
 		{
-			"id": 94,
+			"id": 97,
 			"name": "round",
 			"variant": "declaration",
 			"kind": 64,
@@ -5703,14 +5764,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 577,
+					"line": 608,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L577"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L608"
 				}
 			],
 			"signatures": [
 				{
-					"id": 95,
+					"id": 98,
 					"name": "round",
 					"variant": "signature",
 					"kind": 4096,
@@ -5755,14 +5816,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 577,
+							"line": 608,
 							"character": 21,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L577"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L608"
 						}
 					],
 					"parameters": [
 						{
-							"id": 96,
+							"id": 99,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -5781,7 +5842,7 @@
 							}
 						},
 						{
-							"id": 97,
+							"id": 100,
 							"name": "decimals",
 							"variant": "param",
 							"kind": 32768,
@@ -5810,7 +5871,7 @@
 			]
 		},
 		{
-			"id": 57,
+			"id": 60,
 			"name": "split",
 			"variant": "declaration",
 			"kind": 64,
@@ -5818,14 +5879,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 345,
+					"line": 376,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L345"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L376"
 				}
 			],
 			"signatures": [
 				{
-					"id": 58,
+					"id": 61,
 					"name": "split",
 					"variant": "signature",
 					"kind": 4096,
@@ -5870,14 +5931,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 345,
+							"line": 376,
 							"character": 21,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L345"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L376"
 						}
 					],
 					"parameters": [
 						{
-							"id": 59,
+							"id": 62,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -5896,7 +5957,7 @@
 							}
 						},
 						{
-							"id": 60,
+							"id": 63,
 							"name": "separator",
 							"variant": "param",
 							"kind": 32768,
@@ -5926,7 +5987,7 @@
 			]
 		},
 		{
-			"id": 102,
+			"id": 105,
 			"name": "sqrt",
 			"variant": "declaration",
 			"kind": 64,
@@ -5934,14 +5995,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 617,
+					"line": 648,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L617"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L648"
 				}
 			],
 			"signatures": [
 				{
-					"id": 103,
+					"id": 106,
 					"name": "sqrt",
 					"variant": "signature",
 					"kind": 4096,
@@ -5986,14 +6047,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 617,
+							"line": 648,
 							"character": 20,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L617"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L648"
 						}
 					],
 					"parameters": [
 						{
-							"id": 104,
+							"id": 107,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -6020,7 +6081,7 @@
 			]
 		},
 		{
-			"id": 49,
+			"id": 52,
 			"name": "startsWith",
 			"variant": "declaration",
 			"kind": 64,
@@ -6028,14 +6089,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 305,
+					"line": 336,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L305"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L336"
 				}
 			],
 			"signatures": [
 				{
-					"id": 50,
+					"id": 53,
 					"name": "startsWith",
 					"variant": "signature",
 					"kind": 4096,
@@ -6080,14 +6141,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 305,
+							"line": 336,
 							"character": 26,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L305"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L336"
 						}
 					],
 					"parameters": [
 						{
-							"id": 51,
+							"id": 54,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -6106,7 +6167,7 @@
 							}
 						},
 						{
-							"id": 52,
+							"id": 55,
 							"name": "search",
 							"variant": "param",
 							"kind": 32768,
@@ -6133,7 +6194,7 @@
 			]
 		},
 		{
-			"id": 11,
+			"id": 14,
 			"name": "substring",
 			"variant": "declaration",
 			"kind": 64,
@@ -6141,14 +6202,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 80,
+					"line": 111,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L80"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L111"
 				}
 			],
 			"signatures": [
 				{
-					"id": 12,
+					"id": 15,
 					"name": "substring",
 					"variant": "signature",
 					"kind": 4096,
@@ -6193,14 +6254,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 80,
+							"line": 111,
 							"character": 25,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L80"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L111"
 						}
 					],
 					"parameters": [
 						{
-							"id": 13,
+							"id": 16,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -6219,7 +6280,7 @@
 							}
 						},
 						{
-							"id": 14,
+							"id": 17,
 							"name": "start",
 							"variant": "param",
 							"kind": 32768,
@@ -6238,7 +6299,7 @@
 							}
 						},
 						{
-							"id": 15,
+							"id": 18,
 							"name": "length",
 							"variant": "param",
 							"kind": 32768,
@@ -6265,7 +6326,7 @@
 			]
 		},
 		{
-			"id": 20,
+			"id": 23,
 			"name": "substringAfter",
 			"variant": "declaration",
 			"kind": 64,
@@ -6273,14 +6334,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 140,
+					"line": 171,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L140"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L171"
 				}
 			],
 			"signatures": [
 				{
-					"id": 21,
+					"id": 24,
 					"name": "substringAfter",
 					"variant": "signature",
 					"kind": 4096,
@@ -6325,14 +6386,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 140,
+							"line": 171,
 							"character": 30,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L140"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L171"
 						}
 					],
 					"parameters": [
 						{
-							"id": 22,
+							"id": 25,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -6351,7 +6412,7 @@
 							}
 						},
 						{
-							"id": 23,
+							"id": 26,
 							"name": "chars",
 							"variant": "param",
 							"kind": 32768,
@@ -6378,7 +6439,7 @@
 			]
 		},
 		{
-			"id": 16,
+			"id": 19,
 			"name": "substringBefore",
 			"variant": "declaration",
 			"kind": 64,
@@ -6386,14 +6447,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 119,
+					"line": 150,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L119"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L150"
 				}
 			],
 			"signatures": [
 				{
-					"id": 17,
+					"id": 20,
 					"name": "substringBefore",
 					"variant": "signature",
 					"kind": 4096,
@@ -6438,14 +6499,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 119,
+							"line": 150,
 							"character": 31,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L119"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L150"
 						}
 					],
 					"parameters": [
 						{
-							"id": 18,
+							"id": 21,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -6464,7 +6525,7 @@
 							}
 						},
 						{
-							"id": 19,
+							"id": 22,
 							"name": "chars",
 							"variant": "param",
 							"kind": 32768,
@@ -6491,7 +6552,7 @@
 			]
 		},
 		{
-			"id": 119,
+			"id": 122,
 			"name": "sum",
 			"variant": "declaration",
 			"kind": 64,
@@ -6499,14 +6560,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 714,
+					"line": 745,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L714"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L745"
 				}
 			],
 			"signatures": [
 				{
-					"id": 120,
+					"id": 123,
 					"name": "sum",
 					"variant": "signature",
 					"kind": 4096,
@@ -6551,14 +6612,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 714,
+							"line": 745,
 							"character": 19,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L714"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L745"
 						}
 					],
 					"parameters": [
 						{
-							"id": 121,
+							"id": 124,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -6590,7 +6651,7 @@
 			]
 		},
 		{
-			"id": 137,
+			"id": 140,
 			"name": "switchCase",
 			"variant": "declaration",
 			"kind": 64,
@@ -6598,14 +6659,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 824,
+					"line": 855,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L824"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L855"
 				}
 			],
 			"signatures": [
 				{
-					"id": 138,
+					"id": 141,
 					"name": "switchCase",
 					"variant": "signature",
 					"kind": 4096,
@@ -6650,14 +6711,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 824,
+							"line": 855,
 							"character": 26,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L824"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L855"
 						}
 					],
 					"parameters": [
 						{
-							"id": 139,
+							"id": 142,
 							"name": "args",
 							"variant": "param",
 							"kind": 32768,
@@ -6689,7 +6750,7 @@
 			]
 		},
 		{
-			"id": 131,
+			"id": 134,
 			"name": "toBoolean",
 			"variant": "declaration",
 			"kind": 64,
@@ -6697,14 +6758,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 784,
+					"line": 815,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L784"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L815"
 				}
 			],
 			"signatures": [
 				{
-					"id": 132,
+					"id": 135,
 					"name": "toBoolean",
 					"variant": "signature",
 					"kind": 4096,
@@ -6749,14 +6810,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 784,
+							"line": 815,
 							"character": 25,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L784"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L815"
 						}
 					],
 					"parameters": [
 						{
-							"id": 133,
+							"id": 136,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -6783,7 +6844,7 @@
 			]
 		},
 		{
-			"id": 215,
+			"id": 218,
 			"name": "toDateTime",
 			"variant": "declaration",
 			"kind": 64,
@@ -6791,14 +6852,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1305,
+					"line": 1336,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1305"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1336"
 				}
 			],
 			"signatures": [
 				{
-					"id": 216,
+					"id": 219,
 					"name": "toDateTime",
 					"variant": "signature",
 					"kind": 4096,
@@ -6843,14 +6904,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1305,
+							"line": 1336,
 							"character": 26,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1305"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1336"
 						}
 					],
 					"parameters": [
 						{
-							"id": 217,
+							"id": 220,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -6880,7 +6941,7 @@
 							}
 						},
 						{
-							"id": 218,
+							"id": 221,
 							"name": "format",
 							"variant": "param",
 							"kind": 32768,
@@ -6909,7 +6970,7 @@
 			]
 		},
 		{
-			"id": 5,
+			"id": 8,
 			"name": "toJson",
 			"variant": "declaration",
 			"kind": 64,
@@ -6917,14 +6978,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 40,
+					"line": 71,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L40"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L71"
 				}
 			],
 			"signatures": [
 				{
-					"id": 6,
+					"id": 9,
 					"name": "toJson",
 					"variant": "signature",
 					"kind": 4096,
@@ -6978,14 +7039,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 40,
+							"line": 71,
 							"character": 22,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L40"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L71"
 						}
 					],
 					"parameters": [
 						{
-							"id": 7,
+							"id": 10,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -7012,7 +7073,7 @@
 			]
 		},
 		{
-			"id": 79,
+			"id": 82,
 			"name": "toNumber",
 			"variant": "declaration",
 			"kind": 64,
@@ -7020,14 +7081,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 486,
+					"line": 517,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L486"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L517"
 				}
 			],
 			"signatures": [
 				{
-					"id": 80,
+					"id": 83,
 					"name": "toNumber",
 					"variant": "signature",
 					"kind": 4096,
@@ -7072,14 +7133,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 486,
+							"line": 517,
 							"character": 24,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L486"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L517"
 						}
 					],
 					"parameters": [
 						{
-							"id": 81,
+							"id": 84,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -7106,7 +7167,7 @@
 			]
 		},
 		{
-			"id": 1,
+			"id": 4,
 			"name": "toString",
 			"variant": "declaration",
 			"kind": 64,
@@ -7114,14 +7175,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 24,
+					"line": 55,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L24"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L55"
 				}
 			],
 			"signatures": [
 				{
-					"id": 2,
+					"id": 5,
 					"name": "toString",
 					"variant": "signature",
 					"kind": 4096,
@@ -7166,14 +7227,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 24,
+							"line": 55,
 							"character": 24,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L24"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L55"
 						}
 					],
 					"parameters": [
 						{
-							"id": 3,
+							"id": 6,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -7192,7 +7253,7 @@
 							}
 						},
 						{
-							"id": 4,
+							"id": 7,
 							"name": "prettify",
 							"variant": "param",
 							"kind": 32768,
@@ -7220,7 +7281,7 @@
 			]
 		},
 		{
-			"id": 36,
+			"id": 39,
 			"name": "trim",
 			"variant": "declaration",
 			"kind": 64,
@@ -7228,14 +7289,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 239,
+					"line": 270,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L239"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L270"
 				}
 			],
 			"signatures": [
 				{
-					"id": 37,
+					"id": 40,
 					"name": "trim",
 					"variant": "signature",
 					"kind": 4096,
@@ -7280,14 +7341,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 239,
+							"line": 270,
 							"character": 20,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L239"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L270"
 						}
 					],
 					"parameters": [
 						{
-							"id": 38,
+							"id": 41,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -7306,7 +7367,7 @@
 							}
 						},
 						{
-							"id": 39,
+							"id": 42,
 							"name": "trimChar",
 							"variant": "param",
 							"kind": 32768,
@@ -7335,7 +7396,7 @@
 			]
 		},
 		{
-			"id": 24,
+			"id": 27,
 			"name": "uppercase",
 			"variant": "declaration",
 			"kind": 64,
@@ -7343,14 +7404,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 161,
+					"line": 192,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L161"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L192"
 				}
 			],
 			"signatures": [
 				{
-					"id": 25,
+					"id": 28,
 					"name": "uppercase",
 					"variant": "signature",
 					"kind": 4096,
@@ -7395,14 +7456,14 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 161,
+							"line": 192,
 							"character": 25,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L161"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L192"
 						}
 					],
 					"parameters": [
 						{
-							"id": 26,
+							"id": 29,
 							"name": "input",
 							"variant": "param",
 							"kind": 32768,
@@ -7429,7 +7490,7 @@
 			]
 		},
 		{
-			"id": 243,
+			"id": 246,
 			"name": "uuid",
 			"variant": "declaration",
 			"kind": 64,
@@ -7437,14 +7498,14 @@
 			"sources": [
 				{
 					"fileName": "extended-grammar.ts",
-					"line": 1554,
+					"line": 1585,
 					"character": 13,
-					"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1554"
+					"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1585"
 				}
 			],
 			"signatures": [
 				{
-					"id": 244,
+					"id": 247,
 					"name": "uuid",
 					"variant": "signature",
 					"kind": 4096,
@@ -7489,9 +7550,9 @@
 					"sources": [
 						{
 							"fileName": "extended-grammar.ts",
-							"line": 1554,
+							"line": 1585,
 							"character": 20,
-							"url": "https://github.com/konnektr-io/jexl-extended/blob/1e60e13e48eecbd1b14cd0f9ba075b55e3e1421d/src/extended-grammar.ts#L1554"
+							"url": "https://github.com/konnektr-io/jexl-extended/blob/d1883e4d0d4b610ff158f663f96fb5711c7653d0/src/extended-grammar.ts#L1585"
 						}
 					],
 					"type": {
@@ -7506,116 +7567,117 @@
 		{
 			"title": "Functions",
 			"children": [
-				245
+				1,
+				248
 			]
 		},
 		{
 			"title": "Array",
 			"children": [
-				174,
-				145,
-				159,
-				178,
-				182,
-				186,
-				190,
-				61,
-				170,
-				140,
-				194,
+				177,
 				148,
+				162,
+				181,
+				185,
+				189,
+				193,
+				64,
+				173,
+				143,
+				197,
 				151,
 				154,
-				162,
-				166,
-				199
+				157,
+				165,
+				169,
+				202
 			]
 		},
 		{
 			"title": "Conversion",
 			"children": [
-				111,
-				115,
-				107,
+				114,
+				118,
+				110,
+				85,
+				134,
+				8,
 				82,
-				131,
-				5,
-				79,
-				1
+				4
 			]
 		},
 		{
 			"title": "DateTime",
 			"children": [
-				231,
+				234,
+				229,
+				222,
 				226,
-				219,
-				223,
-				235,
-				213,
-				211,
-				215
+				238,
+				216,
+				214,
+				218
 			]
 		},
 		{
 			"title": "Encoding",
 			"children": [
+				76,
 				73,
-				70,
-				76
+				79
 			]
 		},
 		{
 			"title": "Math",
 			"children": [
-				85,
-				128,
-				91,
 				88,
-				122,
-				125,
-				98,
-				105,
+				131,
 				94,
-				102,
-				119
+				91,
+				125,
+				128,
+				101,
+				108,
+				97,
+				105,
+				122
 			]
 		},
 		{
 			"title": "Object",
 			"children": [
-				205,
 				208,
-				202
+				211,
+				205
 			]
 		},
 		{
 			"title": "String",
 			"children": [
-				30,
-				45,
-				53,
-				27,
-				40,
 				33,
-				65,
-				57,
-				49,
-				11,
-				20,
-				16,
+				48,
+				56,
+				30,
+				43,
 				36,
-				24
+				68,
+				60,
+				52,
+				14,
+				23,
+				19,
+				39,
+				27
 			]
 		},
 		{
 			"title": "Utility",
 			"children": [
-				239,
-				8,
-				134,
+				242,
+				11,
 				137,
-				243
+				140,
+				246
 			]
 		}
 	],
@@ -7667,47 +7729,47 @@
 		"1": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "toString"
+			"qualifiedName": "__setJexlInstance"
 		},
 		"2": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "toString"
+			"qualifiedName": "__setJexlInstance"
 		},
 		"3": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "instance"
 		},
 		"4": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "prettify"
+			"qualifiedName": "toString"
 		},
 		"5": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "toJson"
+			"qualifiedName": "toString"
 		},
 		"6": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "toJson"
+			"qualifiedName": "input"
 		},
 		"7": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "prettify"
 		},
 		"8": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "length"
+			"qualifiedName": "toJson"
 		},
 		"9": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "length"
+			"qualifiedName": "toJson"
 		},
 		"10": {
 			"packageName": "jexl-extended",
@@ -7717,12 +7779,12 @@
 		"11": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "substring"
+			"qualifiedName": "length"
 		},
 		"12": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "substring"
+			"qualifiedName": "length"
 		},
 		"13": {
 			"packageName": "jexl-extended",
@@ -7732,77 +7794,77 @@
 		"14": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "start"
+			"qualifiedName": "substring"
 		},
 		"15": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "length"
+			"qualifiedName": "substring"
 		},
 		"16": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "substringBefore"
+			"qualifiedName": "input"
 		},
 		"17": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "substringBefore"
+			"qualifiedName": "start"
 		},
 		"18": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "length"
 		},
 		"19": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "chars"
+			"qualifiedName": "substringBefore"
 		},
 		"20": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "substringAfter"
+			"qualifiedName": "substringBefore"
 		},
 		"21": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "substringAfter"
+			"qualifiedName": "input"
 		},
 		"22": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "chars"
 		},
 		"23": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "chars"
+			"qualifiedName": "substringAfter"
 		},
 		"24": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "uppercase"
+			"qualifiedName": "substringAfter"
 		},
 		"25": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "uppercase"
+			"qualifiedName": "input"
 		},
 		"26": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "chars"
 		},
 		"27": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "lowercase"
+			"qualifiedName": "uppercase"
 		},
 		"28": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "lowercase"
+			"qualifiedName": "uppercase"
 		},
 		"29": {
 			"packageName": "jexl-extended",
@@ -7812,12 +7874,12 @@
 		"30": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "camelCase"
+			"qualifiedName": "lowercase"
 		},
 		"31": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "camelCase"
+			"qualifiedName": "lowercase"
 		},
 		"32": {
 			"packageName": "jexl-extended",
@@ -7827,12 +7889,12 @@
 		"33": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "pascalCase"
+			"qualifiedName": "camelCase"
 		},
 		"34": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "pascalCase"
+			"qualifiedName": "camelCase"
 		},
 		"35": {
 			"packageName": "jexl-extended",
@@ -7842,12 +7904,12 @@
 		"36": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "trim"
+			"qualifiedName": "pascalCase"
 		},
 		"37": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "trim"
+			"qualifiedName": "pascalCase"
 		},
 		"38": {
 			"packageName": "jexl-extended",
@@ -7857,182 +7919,182 @@
 		"39": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "trimChar"
+			"qualifiedName": "trim"
 		},
 		"40": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "pad"
+			"qualifiedName": "trim"
 		},
 		"41": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "pad"
+			"qualifiedName": "input"
 		},
 		"42": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "trimChar"
 		},
 		"43": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "width"
+			"qualifiedName": "pad"
 		},
 		"44": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "char"
+			"qualifiedName": "pad"
 		},
 		"45": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "contains"
+			"qualifiedName": "input"
 		},
 		"46": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "contains"
+			"qualifiedName": "width"
 		},
 		"47": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "char"
 		},
 		"48": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "search"
+			"qualifiedName": "contains"
 		},
 		"49": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "startsWith"
+			"qualifiedName": "contains"
 		},
 		"50": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "startsWith"
+			"qualifiedName": "input"
 		},
 		"51": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "search"
 		},
 		"52": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "search"
+			"qualifiedName": "startsWith"
 		},
 		"53": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "endsWith"
+			"qualifiedName": "startsWith"
 		},
 		"54": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "endsWith"
+			"qualifiedName": "input"
 		},
 		"55": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "search"
 		},
 		"56": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "search"
+			"qualifiedName": "endsWith"
 		},
 		"57": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "split"
+			"qualifiedName": "endsWith"
 		},
 		"58": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "split"
+			"qualifiedName": "input"
 		},
 		"59": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "search"
 		},
 		"60": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "separator"
+			"qualifiedName": "split"
 		},
 		"61": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayJoin"
+			"qualifiedName": "split"
 		},
 		"62": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayJoin"
+			"qualifiedName": "input"
 		},
 		"63": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "separator"
 		},
 		"64": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "separator"
+			"qualifiedName": "arrayJoin"
 		},
 		"65": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "replace"
+			"qualifiedName": "arrayJoin"
 		},
 		"66": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "replace"
+			"qualifiedName": "input"
 		},
 		"67": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "separator"
 		},
 		"68": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "search"
+			"qualifiedName": "replace"
 		},
 		"69": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "replacement"
+			"qualifiedName": "replace"
 		},
 		"70": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "base64Encode"
+			"qualifiedName": "input"
 		},
 		"71": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "base64Encode"
+			"qualifiedName": "search"
 		},
 		"72": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "replacement"
 		},
 		"73": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "base64Decode"
+			"qualifiedName": "base64Encode"
 		},
 		"74": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "base64Decode"
+			"qualifiedName": "base64Encode"
 		},
 		"75": {
 			"packageName": "jexl-extended",
@@ -8042,12 +8104,12 @@
 		"76": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "formUrlEncoded"
+			"qualifiedName": "base64Decode"
 		},
 		"77": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "formUrlEncoded"
+			"qualifiedName": "base64Decode"
 		},
 		"78": {
 			"packageName": "jexl-extended",
@@ -8057,12 +8119,12 @@
 		"79": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "toNumber"
+			"qualifiedName": "formUrlEncoded"
 		},
 		"80": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "toNumber"
+			"qualifiedName": "formUrlEncoded"
 		},
 		"81": {
 			"packageName": "jexl-extended",
@@ -8072,12 +8134,12 @@
 		"82": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "parseInteger"
+			"qualifiedName": "toNumber"
 		},
 		"83": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "parseInteger"
+			"qualifiedName": "toNumber"
 		},
 		"84": {
 			"packageName": "jexl-extended",
@@ -8087,12 +8149,12 @@
 		"85": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "absoluteValue"
+			"qualifiedName": "parseInteger"
 		},
 		"86": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "absoluteValue"
+			"qualifiedName": "parseInteger"
 		},
 		"87": {
 			"packageName": "jexl-extended",
@@ -8102,12 +8164,12 @@
 		"88": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "floor"
+			"qualifiedName": "absoluteValue"
 		},
 		"89": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "floor"
+			"qualifiedName": "absoluteValue"
 		},
 		"90": {
 			"packageName": "jexl-extended",
@@ -8117,12 +8179,12 @@
 		"91": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "ceil"
+			"qualifiedName": "floor"
 		},
 		"92": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "ceil"
+			"qualifiedName": "floor"
 		},
 		"93": {
 			"packageName": "jexl-extended",
@@ -8132,12 +8194,12 @@
 		"94": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "round"
+			"qualifiedName": "ceil"
 		},
 		"95": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "round"
+			"qualifiedName": "ceil"
 		},
 		"96": {
 			"packageName": "jexl-extended",
@@ -8147,137 +8209,137 @@
 		"97": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "decimals"
+			"qualifiedName": "round"
 		},
 		"98": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "power"
+			"qualifiedName": "round"
 		},
 		"99": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "power"
+			"qualifiedName": "input"
 		},
 		"100": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "decimals"
 		},
 		"101": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "exponent"
+			"qualifiedName": "power"
 		},
 		"102": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "sqrt"
+			"qualifiedName": "power"
 		},
 		"103": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "sqrt"
+			"qualifiedName": "input"
 		},
 		"104": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "exponent"
 		},
 		"105": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "randomNumber"
+			"qualifiedName": "sqrt"
 		},
 		"106": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "randomNumber"
+			"qualifiedName": "sqrt"
 		},
 		"107": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "formatNumber"
+			"qualifiedName": "input"
 		},
 		"108": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "formatNumber"
+			"qualifiedName": "randomNumber"
 		},
 		"109": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "randomNumber"
 		},
 		"110": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "format"
+			"qualifiedName": "formatNumber"
 		},
 		"111": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "formatBase"
+			"qualifiedName": "formatNumber"
 		},
 		"112": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "formatBase"
+			"qualifiedName": "input"
 		},
 		"113": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "format"
 		},
 		"114": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "base"
+			"qualifiedName": "formatBase"
 		},
 		"115": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "formatInteger"
+			"qualifiedName": "formatBase"
 		},
 		"116": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "formatInteger"
+			"qualifiedName": "input"
 		},
 		"117": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "base"
 		},
 		"118": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "format"
+			"qualifiedName": "formatInteger"
 		},
 		"119": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "sum"
+			"qualifiedName": "formatInteger"
 		},
 		"120": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "sum"
+			"qualifiedName": "input"
 		},
 		"121": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "format"
 		},
 		"122": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "max"
+			"qualifiedName": "sum"
 		},
 		"123": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "max"
+			"qualifiedName": "sum"
 		},
 		"124": {
 			"packageName": "jexl-extended",
@@ -8287,12 +8349,12 @@
 		"125": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "min"
+			"qualifiedName": "max"
 		},
 		"126": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "min"
+			"qualifiedName": "max"
 		},
 		"127": {
 			"packageName": "jexl-extended",
@@ -8302,12 +8364,12 @@
 		"128": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "average"
+			"qualifiedName": "min"
 		},
 		"129": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "average"
+			"qualifiedName": "min"
 		},
 		"130": {
 			"packageName": "jexl-extended",
@@ -8317,12 +8379,12 @@
 		"131": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "toBoolean"
+			"qualifiedName": "average"
 		},
 		"132": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "toBoolean"
+			"qualifiedName": "average"
 		},
 		"133": {
 			"packageName": "jexl-extended",
@@ -8332,12 +8394,12 @@
 		"134": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "not"
+			"qualifiedName": "toBoolean"
 		},
 		"135": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "not"
+			"qualifiedName": "toBoolean"
 		},
 		"136": {
 			"packageName": "jexl-extended",
@@ -8347,67 +8409,67 @@
 		"137": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "switchCase"
+			"qualifiedName": "not"
 		},
 		"138": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "switchCase"
+			"qualifiedName": "not"
 		},
 		"139": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "args"
+			"qualifiedName": "input"
 		},
 		"140": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayRange"
+			"qualifiedName": "switchCase"
 		},
 		"141": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayRange"
+			"qualifiedName": "switchCase"
 		},
 		"142": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "array"
+			"qualifiedName": "args"
 		},
 		"143": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "start"
+			"qualifiedName": "arrayRange"
 		},
 		"144": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "end"
+			"qualifiedName": "arrayRange"
 		},
 		"145": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayAppend"
+			"qualifiedName": "array"
 		},
 		"146": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayAppend"
+			"qualifiedName": "start"
 		},
 		"147": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "end"
 		},
 		"148": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayReverse"
+			"qualifiedName": "arrayAppend"
 		},
 		"149": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayReverse"
+			"qualifiedName": "arrayAppend"
 		},
 		"150": {
 			"packageName": "jexl-extended",
@@ -8417,12 +8479,12 @@
 		"151": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayShuffle"
+			"qualifiedName": "arrayReverse"
 		},
 		"152": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayShuffle"
+			"qualifiedName": "arrayReverse"
 		},
 		"153": {
 			"packageName": "jexl-extended",
@@ -8432,12 +8494,12 @@
 		"154": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arraySort"
+			"qualifiedName": "arrayShuffle"
 		},
 		"155": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arraySort"
+			"qualifiedName": "arrayShuffle"
 		},
 		"156": {
 			"packageName": "jexl-extended",
@@ -8447,37 +8509,37 @@
 		"157": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "expression"
+			"qualifiedName": "arraySort"
 		},
 		"158": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "descending"
+			"qualifiedName": "arraySort"
 		},
 		"159": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayDistinct"
+			"qualifiedName": "input"
 		},
 		"160": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayDistinct"
+			"qualifiedName": "expression"
 		},
 		"161": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "descending"
 		},
 		"162": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayToObject"
+			"qualifiedName": "arrayDistinct"
 		},
 		"163": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayToObject"
+			"qualifiedName": "arrayDistinct"
 		},
 		"164": {
 			"packageName": "jexl-extended",
@@ -8487,197 +8549,197 @@
 		"165": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "val"
+			"qualifiedName": "arrayToObject"
 		},
 		"166": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "mapField"
+			"qualifiedName": "arrayToObject"
 		},
 		"167": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "mapField"
+			"qualifiedName": "input"
 		},
 		"168": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "val"
 		},
 		"169": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "field"
+			"qualifiedName": "mapField"
 		},
 		"170": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayMap"
+			"qualifiedName": "mapField"
 		},
 		"171": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayMap"
+			"qualifiedName": "input"
 		},
 		"172": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "field"
 		},
 		"173": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "expression"
+			"qualifiedName": "arrayMap"
 		},
 		"174": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayAny"
+			"qualifiedName": "arrayMap"
 		},
 		"175": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayAny"
+			"qualifiedName": "input"
 		},
 		"176": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "expression"
 		},
 		"177": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "expression"
+			"qualifiedName": "arrayAny"
 		},
 		"178": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayEvery"
+			"qualifiedName": "arrayAny"
 		},
 		"179": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayEvery"
+			"qualifiedName": "input"
 		},
 		"180": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "expression"
 		},
 		"181": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "expression"
+			"qualifiedName": "arrayEvery"
 		},
 		"182": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayFilter"
+			"qualifiedName": "arrayEvery"
 		},
 		"183": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayFilter"
+			"qualifiedName": "input"
 		},
 		"184": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "expression"
 		},
 		"185": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "expression"
+			"qualifiedName": "arrayFilter"
 		},
 		"186": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayFind"
+			"qualifiedName": "arrayFilter"
 		},
 		"187": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayFind"
+			"qualifiedName": "input"
 		},
 		"188": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "expression"
 		},
 		"189": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "expression"
+			"qualifiedName": "arrayFind"
 		},
 		"190": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayFindIndex"
+			"qualifiedName": "arrayFind"
 		},
 		"191": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayFindIndex"
+			"qualifiedName": "input"
 		},
 		"192": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "expression"
 		},
 		"193": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "expression"
+			"qualifiedName": "arrayFindIndex"
 		},
 		"194": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayReduce"
+			"qualifiedName": "arrayFindIndex"
 		},
 		"195": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "arrayReduce"
+			"qualifiedName": "input"
 		},
 		"196": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "expression"
 		},
 		"197": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "expression"
+			"qualifiedName": "arrayReduce"
 		},
 		"198": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "initialValue"
+			"qualifiedName": "arrayReduce"
 		},
 		"199": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "objectKeys"
+			"qualifiedName": "input"
 		},
 		"200": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "objectKeys"
+			"qualifiedName": "expression"
 		},
 		"201": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "initialValue"
 		},
 		"202": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "objectValues"
+			"qualifiedName": "objectKeys"
 		},
 		"203": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "objectValues"
+			"qualifiedName": "objectKeys"
 		},
 		"204": {
 			"packageName": "jexl-extended",
@@ -8687,12 +8749,12 @@
 		"205": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "objectEntries"
+			"qualifiedName": "objectValues"
 		},
 		"206": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "objectEntries"
+			"qualifiedName": "objectValues"
 		},
 		"207": {
 			"packageName": "jexl-extended",
@@ -8702,102 +8764,102 @@
 		"208": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "objectMerge"
+			"qualifiedName": "objectEntries"
 		},
 		"209": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "objectMerge"
+			"qualifiedName": "objectEntries"
 		},
 		"210": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "args"
+			"qualifiedName": "input"
 		},
 		"211": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "now"
+			"qualifiedName": "objectMerge"
 		},
 		"212": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "now"
+			"qualifiedName": "objectMerge"
 		},
 		"213": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "millis"
+			"qualifiedName": "args"
 		},
 		"214": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "millis"
+			"qualifiedName": "now"
 		},
 		"215": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "toDateTime"
+			"qualifiedName": "now"
 		},
 		"216": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "toDateTime"
+			"qualifiedName": "millis"
 		},
 		"217": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "millis"
 		},
 		"218": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "format"
+			"qualifiedName": "toDateTime"
 		},
 		"219": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "dateTimeFormat"
+			"qualifiedName": "toDateTime"
 		},
 		"220": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "dateTimeFormat"
+			"qualifiedName": "input"
 		},
 		"221": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "format"
 		},
 		"222": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "format"
+			"qualifiedName": "dateTimeFormat"
 		},
 		"223": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "dateTimeToMillis"
+			"qualifiedName": "dateTimeFormat"
 		},
 		"224": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "dateTimeToMillis"
+			"qualifiedName": "input"
 		},
 		"225": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "format"
 		},
 		"226": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "dateTimeAdd"
+			"qualifiedName": "dateTimeToMillis"
 		},
 		"227": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "dateTimeAdd"
+			"qualifiedName": "dateTimeToMillis"
 		},
 		"228": {
 			"packageName": "jexl-extended",
@@ -8807,94 +8869,109 @@
 		"229": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "unit"
+			"qualifiedName": "dateTimeAdd"
 		},
 		"230": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "value"
+			"qualifiedName": "dateTimeAdd"
 		},
 		"231": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "convertTimeZone"
+			"qualifiedName": "input"
 		},
 		"232": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "convertTimeZone"
+			"qualifiedName": "unit"
 		},
 		"233": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "value"
 		},
 		"234": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "targetTimeZone"
+			"qualifiedName": "convertTimeZone"
 		},
 		"235": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "localTimeToIsoWithOffset"
+			"qualifiedName": "convertTimeZone"
 		},
 		"236": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "localTimeToIsoWithOffset"
+			"qualifiedName": "input"
 		},
 		"237": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "localTime"
+			"qualifiedName": "targetTimeZone"
 		},
 		"238": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "timeZone"
+			"qualifiedName": "localTimeToIsoWithOffset"
 		},
 		"239": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "_eval"
+			"qualifiedName": "localTimeToIsoWithOffset"
 		},
 		"240": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "_eval"
+			"qualifiedName": "localTime"
 		},
 		"241": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "input"
+			"qualifiedName": "timeZone"
 		},
 		"242": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "expression"
+			"qualifiedName": "_eval"
 		},
 		"243": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "uuid"
+			"qualifiedName": "_eval"
 		},
 		"244": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "uuid"
+			"qualifiedName": "input"
 		},
 		"245": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "getType"
+			"qualifiedName": "expression"
 		},
 		"246": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
-			"qualifiedName": "getType"
+			"qualifiedName": "uuid"
 		},
 		"247": {
+			"packageName": "jexl-extended",
+			"packagePath": "src/extended-grammar.ts",
+			"qualifiedName": "uuid"
+		},
+		"248": {
+			"packageName": "jexl-extended",
+			"packagePath": "src/extended-grammar.ts",
+			"qualifiedName": "getType"
+		},
+		"249": {
+			"packageName": "jexl-extended",
+			"packagePath": "src/extended-grammar.ts",
+			"qualifiedName": "getType"
+		},
+		"250": {
 			"packageName": "jexl-extended",
 			"packagePath": "src/extended-grammar.ts",
 			"qualifiedName": "input"
