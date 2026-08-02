@@ -73,6 +73,7 @@
     }
   },
   "dependencies": {
+    "@types/jexl": "^2.3.4",
     "date-fns": "^4.1.0",
     "date-fns-tz": "^3.2.0",
     "jexl": "^2.3.0",
@@ -81,7 +82,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
-    "@types/jexl": "^2.3.4",
     "@types/node": "^25.6.0",
     "@typescript-eslint/eslint-plugin": "^8.59.0",
     "@typescript-eslint/parser": "^8.59.0",
