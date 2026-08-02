@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24'
 
       - name: 'Install PNPM'
         uses: pnpm/action-setup@v4
@@ -43,18 +43,8 @@ jobs:
       - name: 'Run tests'
         run: pnpm run test
 
-      - name: 'Get npm OIDC token'
-        id: oidc
-        run: |
-          # Fetch the GitHub Actions OIDC token with audience "npm" and pass
-          # it to npm as the publish credential (npm trusted publishing).
-          url="${ACTIONS_ID_TOKEN_REQUEST_URL}"
-          case "$url" in *\?*) sep="&" ;; *) sep="?" ;; esac
-          resp=$(curl -sS -H "Authorization: Bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN}" "${url}${sep}audience=npm")
-          tok=$(printf '%s' "$resp" | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>console.log(JSON.parse(d).value))")
-          echo "npm_token=${tok}" >> "${GITHUB_OUTPUT}"
-
+      # npm >= 11.5.1 auto-detects the OIDC environment (id-token: write) and
+      # authenticates against the package's trusted publisher
+      # (konnektr-io/jexl-extended + release.yml) — no token needed.
       - name: 'Publish library'
         run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ steps.oidc.outputs.npm_token }}
