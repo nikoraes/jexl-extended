@@ -972,8 +972,8 @@ export const arraySort = (
   const compareFunction = (a: unknown, b: unknown) => {
     const aValue = expr.evalSync(a);
     const bValue = expr.evalSync(b);
-    if (aValue < bValue) return descending ? -1 : 1;
-    if (aValue > bValue) return descending ? 1 : -1;
+    if (aValue < bValue) return descending ? 1 : -1;
+    if (aValue > bValue) return descending ? -1 : 1;
     return 0;
   };
   return [...input].sort(compareFunction);
