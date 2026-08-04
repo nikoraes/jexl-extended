@@ -237,6 +237,11 @@ test("arrays", () => {
     jexl.evalSync(
       '[{name:"tek",age:32}, {name:"bar",age:34}, {name:"baz",age:33}, {name:"foo",age:35}]|sort("age",true)|mapField("name")',
     ),
+  ).toEqual(["foo", "bar", "baz", "tek"]);
+  expect(
+    jexl.evalSync(
+      '[{name:"tek",age:32}, {name:"bar",age:34}, {name:"baz",age:33}, {name:"foo",age:35}]|sort("age",false)|mapField("name")',
+    ),
   ).toEqual(["tek", "baz", "bar", "foo"]);
   expect(jexl.evalSync('["foo"]|append(["tek","baz","bar"]|sort)')).toEqual([
     "foo",
